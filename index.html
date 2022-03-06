@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Cake Armstrong</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__imagotipo">
+        <img src="/assets/img/Logo.png" alt="Logo" />
+        <h1 class="title">Cake Armstrong</h1>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#cakes">Pasteles</a></li>
+          <li><a href="#ornaments">Adornos</a></li>
+          <li><a href="#order">Pedidos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="cakes" class="cakes">
+      <h2 class="title">Pasteles</h2>
+      <div class="catalog">
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/pastel_alunizaje.jpg"
+              alt="Pastel alunizaje"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Alunizaje</p>
+            <p>$1500</p>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/pastel_rocket.png"
+              alt="Pastel Despegue"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Despegue</p>
+            <p>$1300</p>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/pastel_estelar.jpg"
+              alt="Pastel estelar"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Estelar</p>
+            <p>$1500</p>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/pastel_SisSolar.jpg"
+              alt="Pastel sistena solar"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Sistena Solar</p>
+            <p>$1550</p>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/pastel_SisSolarPlano.jpg"
+              alt="Pastel sistena solar plano"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Sistena Solar Plano</p>
+            <p>$1000</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="ornaments" class="ornaments">
+      <h2 class="title">Adornos</h2>
+      <div class="catalog">
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/adorno_astronautas.jpg"
+              alt="Adorno astronauta"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Astronauta</p>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/adorno_cohete.jpg"
+              alt="Adorno cohete"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Cohete</p>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/adorno_naves.jpg"
+              alt="Adorno naves"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Naves</p>
+          </div>
+        </div>
+        <div class="catalog__item">
+          <figure class="catalog__figure">
+            <img
+              class="catalog__image"
+              src="/assets/img/adorno_planetas.jpg"
+              alt="Adorno planetas"
+            />
+          </figure>
+          <div class="catalog__text">
+            <p>Planetas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="order" class="order">
+      <h2 class="title">Haga su pedido</h2>
+      <form class="order__container">
+        <input type="text" class="order__text-input" id="name" placeholder="Nombre" />
+        <input
+          type="text"
+          class="order__text-input"
+          id="lastname"
+          placeholder="Apellido"
+        />
+        <input type="tel" class="order__text-input" id="phone" placeholder="Teléfono" />
+        <input
+          type="email"
+          class="order__text-input"
+          id="email"
+          placeholder="Correo Electronico"
+        />
+        <textarea
+          name="description"
+          class="order__text-area"
+          id="description"
+          cols="30"
+          rows="10"
+          placeholder="Descripción del pastel"
+        ></textarea>
+        <h3 class="order__form-title">Sabores de pastel</h3>
+        <div>
+          <input
+            type="checkbox"
+            id="chocolate"
+            name="chocolate"
+            value="chocolate"
+          />
+          <label for="chocolate">Chocolate</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="vainilla"
+            name="vainilla"
+            value="vainilla"
+          />
+          <label for="vainilla">Vainilla</label>
+        </div>
+        <div>
+          <input type="checkbox" id="limon" name="limon" value="limon" />
+          <label for="vehicle3">Limon</label>
+        </div>
+        <div>
+          <input type="checkbox" id="fresa" name="fresa" value="fresa" />
+          <label for="vehicle3">Fresa</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="zanahoria"
+            name="zanahoria"
+            value="zanahoria"
+          />
+          <label for="zanahoria">Zanahoria</label>
+        </div>
+        <h3 class="order__form-title">Adornos</h3>
+        <div>
+          <input
+            type="checkbox"
+            id="astronauta"
+            name="astronauta"
+            value="astronauta"
+          />
+          <label for="astronauta">Astronauta</label>
+        </div>
+        <div>
+          <input type="checkbox" id="cohete" name="cohete" value="cohete" />
+          <label for="cohete">Cohete</label>
+        </div>
+        <div>
+          <input type="checkbox" id="naves" name="naves" value="naves" />
+          <label for="naves">Naves</label>
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="planetas"
+            name="planetas"
+            value="planetas"
+          />
+          <label for="planetas">Planetas</label>
+        </div>
+        <button type="submit" class="order__button">Hacer Pedido</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <p class="footer__direction">
+        <span class="footer__text footer__text--bold">Dirección:</span> Av. H. Escuela Naval Militar S/N, Coapa,
+        Ex-Ejido de San Pablo Tepetlapa, Coyoacán, 04900 Coyoacán, CDMX
+      </p>
+      <p class="footer__phone"><span class="footer__text footer__text--bold">Telélefono:</span> 55-1111-33333</p>
+      <div class="footer__schedule">
+        <p class="footer__text footer__text--bold">Horario:</p>
+        <p>Lunes a Viernes 9 - 21hrs</p>
+        <p>Sábados 9 - 16 hrs</p>
+      </div>
+    </footer>
+  </body>
+</html>

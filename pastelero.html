@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Cake Armstrong</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__imagotipo">
+        <img src="/assets/img/Logo.png" alt="Logo" />
+        <h1 class="title">Cake Armstrong</h1>
+      </div>
+    </header>
+    <section class="stock">
+      <h2 class="title">Stock</h2>
+      <div class="stock__grid">
+        <div class="stock__flavors">
+          <h3 class="stock__grid-title">Sabores</h3>
+          <div class="stock__grid stock__grid--three-colums">
+            <p>
+              <span class="stock__text stock__text--bold">Chocolate: </span>5
+            </p>
+            <p>
+              <span class="stock__text stock__text--bold">Vainilla: </span>2
+            </p>
+            <p><span class="stock__text stock__text--bold">Limon: </span>8</p>
+            <p><span class="stock__text stock__text--bold">Fresa: </span>4</p>
+            <p>
+              <span class="stock__text stock__text--bold">Zanahoria: </span>0
+            </p>
+          </div>
+        </div>
+        <div class="stock__ornaments">
+          <h3 class="stock__grid-title">Adornos</h3>
+          <div class="stock__grid stock__grid--three-colums">
+            <p>
+              <span class="stock__text stock__text--bold">Astronauta: </span>2
+            </p>
+            <p><span class="stock__text stock__text--bold">Cohete: </span>2</p>
+            <p><span class="stock__text stock__text--bold">Naves: </span>5</p>
+            <p>
+              <span class="stock__text stock__text--bold">Planetas: </span>4
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="orders">
+      <h2 class="title">Pedidos</h2>
+
+      <table class="orders__table">
+        <tr>
+          <th class="orders__table-header">Nombre</th>
+          <th class="orders__table-header">Teléfono</th>
+          <th class="orders__table-header">Correo Electrónico</th>
+          <th class="orders__table-header">Descripción General</th>
+          <th class="orders__table-header">Sabores</th>
+          <th class="orders__table-header">Adornos</th>
+        </tr>
+        <tr>
+          <td class="orders__cells">Alfreds Futterkiste</td>
+          <td class="orders__cells">55-1111-33333</td>
+          <td class="orders__cells">alfreds@gmail.com</td>
+          <td class="orders__cells">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit maiores.
+          </td>
+          <td class="orders__cells">
+            <ul>
+              <li>Chocolate</li>
+              <li>Fresa</li>
+            </ul>
+          </td>
+          <td class="orders__cells">
+            <ul>
+              <li>Astronauta</li>
+              <li>Cohete</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="orders__cells">Catalina Peralta</td>
+          <td class="orders__cells">55-4857-7915</td>
+          <td class="orders__cells">catalina@gmail.com</td>
+          <td class="orders__cells">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit maiores.
+          </td>
+          <td class="orders__cells">
+            <ul>
+              <li>Limon</li>
+              <li>Zanahoria</li>
+            </ul>
+          </td>
+          <td class="orders__cells">
+            <ul>
+              <li>Astronauta</li>
+              <li>Cohete</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <footer class="footer">
+      <p class="footer__direction">
+        <span class="footer__text footer__text--bold">Dirección:</span> Av. H.
+        Escuela Naval Militar S/N, Coapa, Ex-Ejido de San Pablo Tepetlapa,
+        Coyoacán, 04900 Coyoacán, CDMX
+      </p>
+      <p class="footer__phone">
+        <span class="footer__text footer__text--bold">Telélefono:</span>
+        55-1111-33333
+      </p>
+      <div class="footer__schedule">
+        <p class="footer__text footer__text--bold">Horario:</p>
+        <p>Lunes a Viernes 9 - 21hrs</p>
+        <p>Sábados 9 - 16 hrs</p>
+      </div>
+    </footer>
+  </body>
+</html>
